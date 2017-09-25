@@ -12,7 +12,7 @@ This is a website designed to be able to give the user the ability to add a word
 
 *  Clone repository from github
 *  Using the terminal, navigate to the file directory and run "bundle" and "ruby app.rb"
-*  or view the site here:
+*  or view the site here: https://git.heroku.com/glacial-meadow-76361.git
 
 ## Technologies Used
 *  Ruby
