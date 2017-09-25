@@ -1,7 +1,6 @@
 class Word
   attr_accessor(:word, :definitions, :id)
-    @@words = []
-
+      @@words = []
 
   def initialize (attributes)
     @word = attributes.fetch(:word)
