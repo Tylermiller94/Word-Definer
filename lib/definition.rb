@@ -1,5 +1,6 @@
 class Definition
   attr_accessor(:definition)
+  @@definitions = []
 
   def initialize (definition)
       @definition = definition
