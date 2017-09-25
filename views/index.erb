@@ -1,1 +1,16 @@
 <h2>Word Definer</h2>
+
+<% if @words.any?() %>
+  <h3>Click on a word to see its definitions:</h3>
+
+<ul>
+  <% @words.each do |word| %>
+  <li><a href="/word/<%= word.id() %>"><%= word.word() %></a></li>
+  <%end%>
+</ul>
+
+<% else %>
+  <p>There are no lists yet!</p>
+<% end %>
+
+ <h4><a href="/word/new"><%= 'add new word' %></a></h4>
